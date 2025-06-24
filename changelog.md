@@ -1,6 +1,6 @@
 # v1.0.2
 
-* Fixed a crash issue where the mod would attempt to modify sliders that have been removed by the engine code.
+* Fixed a crash issue where the mod would attempt to modify sliders that have already been removed.
 
 # v1.0.1
 
