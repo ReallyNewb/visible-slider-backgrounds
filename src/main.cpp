@@ -11,18 +11,16 @@ public:
 		if (!Slider::init(p0, p1, p2, p3, p4, p5, p6)) return false;
 
 		auto failsafe = WeakRef(this);
-
 		queueInMainThread([failsafe] {
 			auto self = failsafe.lock();
 			if (!self) return;
-
 			auto main = self->getChildByType<CCSprite>(0);
 			if (!main) return;
-
 			auto bg = main->getChildByType<CCSprite>(0);
 			if (!bg) return;
 
-			bg->setVisible(true);
+			auto visible = !Mod::get()->getSettingValue<bool>("opposite-day");
+			bg->setVisible(visible);
 		});
 		return true;
 	}
