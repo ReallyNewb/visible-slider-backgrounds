@@ -19,7 +19,7 @@
 		"opposite-day": {
 			"type": "bool",
 			"name": "Opposite Day!",
-			"description": "Makes the mod break its promise. <cf>Why would you want to do this?</c>",
+			"description": "Makes the mod break its promise. <cj>Why would you want to do this?</c>",
 			"default": false
 		}
 	}
