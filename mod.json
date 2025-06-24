@@ -8,7 +8,19 @@
 	},
 	"id": "reallynewb.visible_slider_backgrounds",
 	"name": "Visible Slider Backgrounds",
-	"version": "v1.0.20",
+	"version": "v1.0.0",
 	"developer": "ReallyNewb",
-	"description": "Makes every slider bar visible."
+	"description": "Makes slider backgrounds visible again",
+	"tags": ["universal", "offline"],
+	"links": {
+		"source": "https://github.com/ReallyNewb/visible-slider-backgrounds"
+	},
+	"settings": {
+		"opposite-day": {
+			"type": "bool",
+			"name": "Opposite Day!",
+			"description": "Makes the mod break its promise. <cf>Why would you want to do this?</c>",
+			"default": false
+		}
+	}
 }
