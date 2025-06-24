@@ -65,3 +65,5 @@ build-*/
 
 # ReallyNewb additions
 *.md
+*.gitignore
+*.json
