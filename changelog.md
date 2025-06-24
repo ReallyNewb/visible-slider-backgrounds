@@ -1,11 +1,15 @@
+# v1.0.20
+
+Basic changes in files like this changelog and more. I'm not sure if this is supported for Geode 4.60+.
+
 # v1.0.2
 
-* Fixed a crash issue where the mod would attempt to modify sliders that have already been removed.
+* Fixed game crash when attempting to modify sliders that have been removed from memory.
 
 # v1.0.1
 
-* Made some code changes for efficiency. Everything is still the same though.
+* Changed parts of the code to be a little bit more cleaner.
 
 # v1.0.0
 
-* Initial release.
+* Initial release. Slider bars are apparent **everywhere** now, yay!
