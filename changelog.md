@@ -1,6 +1,6 @@
 # v1.0.20
 
-Basic changes in files like this changelog and more. I'm not sure if this is supported for Geode 4.60+.
+* Basic changes in files like this changelog and more. I'm not sure if this is supported for Geode 4.60+.
 
 # v1.0.2
 
