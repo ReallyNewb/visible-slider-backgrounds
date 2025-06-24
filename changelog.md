@@ -1,3 +1,7 @@
+# v1.0.3
+
+* Added <cg>tags,</c> <cy>GitHub link,</c> and <co>Opposite Day setting.</c>
+
 # v1.0.20
 
 * Basic changes in files like this changelog and more. I'm not sure if this is supported for Geode 4.60+.
