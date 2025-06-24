@@ -62,8 +62,3 @@ build-*/
 # CLion
 .idea/
 /cmake-build-*/
-
-# ReallyNewb additions
-*.md
-*.gitignore
-*.json
