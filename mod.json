@@ -8,7 +8,7 @@
 	},
 	"id": "reallynewb.visible_slider_backgrounds",
 	"name": "Visible Slider Backgrounds",
-	"version": "v1.1.0",
+	"version": "v1.1.1",
 	"developer": "ReallyNewb",
 	"description": "Makes slider backgrounds visible again",
 	"tags": ["universal", "offline"],
@@ -21,6 +21,15 @@
 			"name": "Opposite Day!",
 			"description": "Makes the mod break its promise. <cj>Why would you want to do this?</c>",
 			"default": false
+		},
+		"ignore-editor-slider": {
+			"type": "bool",
+			"name": "Ignore Editor Slider",
+			"description": "Disables the slider background for the editor slider.",
+			"default": false
 		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=1.21.0"
 	}
 }

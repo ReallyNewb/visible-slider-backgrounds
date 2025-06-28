@@ -1,4 +1,10 @@
-# v1.0.3
+# v1.1.1
+
+* Fixed editor slider being a bit <cr>misaligned.</c>
+
+* Added ability to <cj>toggle editor slider background.</c>
+
+# v1.1.0
 
 * Added <cg>tags,</c> <cy>GitHub link,</c> and <co>Opposite Day setting.</c>
 
