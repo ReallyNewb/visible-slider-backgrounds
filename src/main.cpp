@@ -19,8 +19,16 @@ public:
 			auto bg = main->getChildByType<CCSprite>(0);
 			if (!bg) return;
 
-			auto visible = !Mod::get()->getSettingValue<bool>("opposite-day");
-			bg->setVisible(visible);
+			auto nodeId = self->getID();
+
+			if (nodeId == "position-slider") {
+				auto visible = !Mod::get()->getSettingValue<bool>("ignore-editor-slider");
+				bg->setPositionY(2.f);
+				bg->setVisible(visible);
+			} else {
+				auto visible = !Mod::get()->getSettingValue<bool>("opposite-day");
+				bg->setVisible(visible);   
+			}
 		});
 		return true;
 	}
