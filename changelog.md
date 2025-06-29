@@ -1,3 +1,7 @@
+# v1.1.2
+
+* Fixed <cf>scale sliders</c> being <cr>misaligned.</c>
+
 # v1.1.1
 
 * Fixed editor slider being a bit <cr>misaligned.</c>
