@@ -29,6 +29,7 @@ public:
 				auto visible = !Mod::get()->getSettingValue<bool>("opposite-day");
 				bg->setVisible(visible);   
 			}
+			if (dynamic_cast<GJScaleControl*>(self->getParent())) bg->setPositionY(2.f);
 		});
 		return true;
 	}
