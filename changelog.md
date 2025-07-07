@@ -1,3 +1,7 @@
+# v1.1.3
+
+* Forced an update to hopefully support <cl>JIT-less Geode.</c>
+
 # v1.1.2
 
 * Fixed <cf>scale sliders</c> being <cr>misaligned.</c>
