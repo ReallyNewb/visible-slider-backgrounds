@@ -1,6 +1,8 @@
 # v1.1.3
 
-* Forced an update to hopefully support <cl>JIT-less Geode.</c>
+* Made minor changes in the code.
+
+* Bumped Geode version to <cl>v4.6.3.</c>
 
 # v1.1.2
 
