@@ -6,7 +6,7 @@ public:
 	bool init(cocos2d::CCNode* p0, cocos2d::SEL_MenuHandler p1, char const* p2, char const* p3, char const* p4, char const* p5, float p6) {
 		if (!Slider::init(p0, p1, p2, p3, p4, p5, p6)) return false;
 
-		auto failsafe = WeakRef(this);
+		auto failsafe = geode::WeakRef(this);
 		queueInMainThread([failsafe] {
 			auto self = failsafe.lock();
 			if (!self) return;
