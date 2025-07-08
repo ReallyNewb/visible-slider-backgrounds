@@ -7,7 +7,7 @@ public:
 		if (!Slider::init(p0, p1, p2, p3, p4, p5, p6)) return false;
 
 		auto failsafe = geode::WeakRef(this);
-		queueInMainThread([failsafe] {
+		geode::queueInMainThread([failsafe] {
 			auto self = failsafe.lock();
 			if (!self) return;
 			auto main = self->getChildByType<cocos2d::CCSprite>(0);
