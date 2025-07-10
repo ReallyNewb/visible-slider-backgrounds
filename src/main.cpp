@@ -16,7 +16,7 @@ public:
 			if (!bg) return;
 
 			auto nodeId = self->getID();
-			bool moveDown = nodeId == "position-slider" || dynamic_cast<GJScaleControl*>(self->getParent());
+			bool moveDown = nodeId == "position-slider" || geode::cast::typeinfo_cast<GJScaleControl*>(self->getParent());
 
 			if (moveDown) bg->setPositionY(2.f);
 
